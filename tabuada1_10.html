@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada de 1 a 10</title>
+</head>
+<body>
+    <div id="valor"></div>
+    <script>
+        let num1 = 1;
+        let num2 = 1
+        let resultado = "";
+        for (let t = 0; t <= 10; t++) {
+           for (let r = 0; r <= 10; r++){
+            resultado += t + " X " + r + " = " + r * t + "</br>";
+            document.getElementById("valor").innerHTML = resultado;
+}
+        resultado += "</br>------------</br>";    
+        }
+    </script>
+</body>
+</html>
